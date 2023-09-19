@@ -34,3 +34,41 @@
 .KAIA{
     color:aqua;
 }
+/* Style the table */
+.ibsen-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #333;
+    margin: 20px 0;
+}
+
+/* Style table headers */
+.ibsen-table th {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Style alternate rows with a light gray background */
+.ibsen-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style table cells */
+.ibsen-table td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+/* Apply additional padding and margin to the table */
+.ibsen-table th,
+.ibsen-table td {
+    padding: 12px;
+}
+
+/* Add some margin to the table */
+.ibsen-table {
+    margin-bottom: 20px;
+}
+
