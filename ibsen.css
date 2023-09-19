@@ -34,41 +34,37 @@
 .KAIA{
     color:aqua;
 }
-/* Style the table */
+/* Style the ibsen-table */
 .ibsen-table {
-    width: 100%;
+    width: 80%; /* Set table width to 80% of the container */
+    margin: 20px auto; /* Center-align the table */
+    border: 2px solid #009688; /* Teal border */
     border-collapse: collapse;
-    border: 2px solid #333;
-    margin: 20px 0;
 }
 
-/* Style table headers */
+/* Style table headers with different colors */
 .ibsen-table th {
-    background-color: #333;
+    background-color: #009688; /* Teal */
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 10px;
+    border: 1px solid #fff; /* White border */
 }
 
-/* Style alternate rows with a light gray background */
+/* Style alternate rows with different background colors */
 .ibsen-table tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #E0E0E0; /* Light Gray */
 }
 
-/* Style table cells */
+.ibsen-table tbody tr:nth-child(odd) {
+    background-color: #FFF; /* White */
+}
+
+/* Style table cells with different border colors */
 .ibsen-table td {
-    border: 1px solid #333;
+    text-align: center;
     padding: 10px;
+    border: 1px solid #009688; /* Teal border */
 }
 
-/* Apply additional padding and margin to the table */
-.ibsen-table th,
-.ibsen-table td {
-    padding: 12px;
-}
-
-/* Add some margin to the table */
-.ibsen-table {
-    margin-bottom: 20px;
-}
 
