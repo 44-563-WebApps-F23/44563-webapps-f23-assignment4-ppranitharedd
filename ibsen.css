@@ -55,14 +55,7 @@
     --table-color-header: rgb(17, 57, 96);
   }
   
-  /* This style is for table properties */
-  :root {
-    --table-border: 2px solid black;
-    --table-padding: 18px;
-    --table-bg-even: rgba(227, 222, 222, 0.783);
-    --table-bg-header: #168de2ba;
-    --table-color-header: rgba(179, 19, 38, 0.774);
-  }
+
   table, th, td {
     border: var(--table-border);
     text-align: center !important;
