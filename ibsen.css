@@ -102,16 +102,19 @@
     color: darkred;
     text-shadow:3px 2px 3px blue;
     background-color:darkkhaki;
+    filter: blur(1px);
 }
 .KAIA:hover{
         color: darkred;
         text-shadow:3px 2px 3px blue;
         background-color:darkkhaki;
+        filter: blur(1px);
       }
 .BROVIK:hover{
         color: darkred;
         text-shadow:3px 2px 3px blue;
         background-color:darkkhaki;
+        filter: blur(1px);
       }
    
       .navbar-horizontal{
@@ -141,7 +144,7 @@
         float: left;
       }
       .img{
-        width: 150px;
+        width: 450px;
         height: 200px;
         margin-top: 30px;
       margin-bottom: 11px;
