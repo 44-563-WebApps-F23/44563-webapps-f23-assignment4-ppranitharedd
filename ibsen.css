@@ -21,18 +21,26 @@
 
 /* Styles for character names */
 .KNUT BROVIK {
+    font-size:40 ;
     color: #ff5733; 
+    font-style: oblique;
 }
 
 .BROVIK {
+    font-size: 40;
     color: #33ff57;  
+    font-style: oblique;
 }
 
 .RAGNAR {
+    font-size: 40;
     color: #5733ff; 
+    font-style: oblique;
 }
 .KAIA{
+    font-style: oblique;
     color:aqua;
+    font-size: 40;
 }
 :root {
     --table-border: 1px solid black;
@@ -50,6 +58,11 @@
     --table-bg-header: #168de2ba;
     --table-color-header: rgba(179, 19, 38, 0.774);
   }
+  table, th, td {
+    border: var(--table-border);
+    text-align: center !important;
+  }
+  
  
 /* Style the ibsen-table */
 .ibsen-table {
